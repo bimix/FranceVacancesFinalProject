@@ -22,7 +22,6 @@ namespace FranceVacancesFinalProject.Model
             _size = size;
             _location = location;
             _price = price;
-            // Comment
             
         }
 
