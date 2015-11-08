@@ -32,6 +32,16 @@ namespace FranceVacancesFinalProject.View
             endDatePicker.Date = DateTimeOffset.Now.AddDays(2);
         }
 
+
+        private void checkAvailabilityButton_Click(object sender, RoutedEventArgs e)
+        {
+            commentTextBlock.Text = "Start: " + startDatePicker.Date.Value.ToString("dd MMMM yyyy") + "\nEnd: " +
+                                    endDatePicker.Date.Value.ToString("dd MMMM yyyy");
+        }
+
+
+
+        // Methods to Navigate
         private void payButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof (PaymentPage), null);
@@ -57,6 +67,7 @@ namespace FranceVacancesFinalProject.View
             Frame.Navigate(typeof(LoginPage), null);
         }
 
+     
     }
 }
 

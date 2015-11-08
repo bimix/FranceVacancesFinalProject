@@ -1,1 +1,1 @@
-C:\Users\admin-nova\Desktop\DK SKóli\1st semester\France Vacances\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject.csproj;x86
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject.csproj;x86
