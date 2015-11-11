@@ -9,8 +9,8 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="11*"/>
-            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="51*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -58,9 +58,9 @@
             </Button.Background>
         </Button>
         <TextBlock x:Name="commentTextBlock" HorizontalAlignment="Left" Margin="56,0,0,205" FontSize="16" TextWrapping="Wrap" Text="We can add an event to the datepicker, so it will automatically updatteh textblock, button is absolete" VerticalAlignment="Bottom" Height="105" Width="242" Grid.ColumnSpan="2"/>
-        <StackPanel HorizontalAlignment="Left" Height="545" Margin="305,100,0,0" VerticalAlignment="Top" Width="429" Grid.Column="1">
-            <TextBlock x:Name="priceInfoTextblock" Margin="0,0,-17,0" TextWrapping="Wrap" Text="Here the price for the selected dates will be displayed. Or if the apt is unavailable, show which dates are unavailable" FontSize="36" Height="288"/>
-            <Button x:Name="payButton" Content="Proceed to payment" HorizontalAlignment="Stretch" Margin="0,0,36,0" VerticalAlignment="Bottom" Height="90" FontSize="36" Click="payButton_Click" Foreground="Black">
+        <StackPanel HorizontalAlignment="Left" Height="545" Margin="256,100,0,0" VerticalAlignment="Top" Width="379" Grid.Column="1">
+            <TextBlock x:Name="priceInfoTextblock" TextWrapping="Wrap" Text="Here the price for the selected dates will be displayed. Or if the apt is unavailable, show which dates are unavailable" FontSize="36" Height="288"/>
+            <Button x:Name="payButton" Content="Proceed to payment" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" FontSize="36" Click="payButton_Click" Foreground="Black">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Black" Offset="1"/>
@@ -70,7 +70,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="cancelPaymentButton" Content="Cancel" HorizontalAlignment="Center" Margin="46,0,283,0" VerticalAlignment="Bottom" FontSize="16" Click="cancelPaymentButton_Click" Foreground="White" Width="100" Height="30">
+            <Button x:Name="cancelPaymentButton" Content="Cancel" HorizontalAlignment="Center" Margin="21,0,225,0" VerticalAlignment="Bottom" FontSize="16" Click="cancelPaymentButton_Click" Foreground="White" Width="133" Height="30">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Black" Offset="1"/>
@@ -79,10 +79,10 @@
                 </Button.Background>
             </Button>
         </StackPanel>
-        <StackPanel HorizontalAlignment="Left" Height="282" Margin="56,123,0,0" VerticalAlignment="Top" Width="209" Grid.ColumnSpan="2">
-            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="112" TextWrapping="Wrap" Text="Booking info for apt X" VerticalAlignment="Top" Width="229" FontSize="36"/>
+        <StackPanel HorizontalAlignment="Left" Height="282" Margin="56,123,0,0" VerticalAlignment="Top" Width="194">
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="112" TextWrapping="Wrap" Text="Booking info for apt X" VerticalAlignment="Top" Width="209" FontSize="36" Foreground="#FFE29C9C"/>
             <CalendarDatePicker  x:Name="startDatePicker" Header="Start Date" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <CalendarDatePicker x:Name="endDatePicker" Header="End Date" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <CalendarDatePicker x:Name="endDatePicker" Header="End Date" HorizontalAlignment="Left" VerticalAlignment="Top" CalendarViewDayItemChanging="CalendarView_CalendarViewDayItemChanging"/>
         </StackPanel>
     </Grid>
 </Page>
