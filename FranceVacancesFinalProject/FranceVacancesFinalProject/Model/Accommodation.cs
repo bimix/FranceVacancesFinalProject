@@ -14,15 +14,15 @@ namespace FranceVacancesFinalProject.Model
         private string _address;
         private string _price;
         private List<string> _pictureURLList;
-        private List<Availability> _availabilities;
+        private Availability _availability;
 
-        public Accommodation(string accommodatonID, string size, string location, string price)
+        public Accommodation(string accommodatonID, string size, string location, string price, Availability availability)
         {
             _accommodationID = accommodatonID;
             _size = size;
             _location = location;
             _price = price;
-            
+            _availability = availability;
         }
 
         public string AccommodationID
@@ -53,9 +53,13 @@ namespace FranceVacancesFinalProject.Model
             set { _price = value; }
         }
 
-
-
-
+        public Availability Availability
+        {
+            get { return _availability;}
+        }
+        
+        
+        
         // Methods -------------------------
 
 

@@ -7,15 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid>
+    <Grid HorizontalAlignment="Left" Width="1280" Height="720" VerticalAlignment="Bottom">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="13*"/>
-            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="191*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FF244D95" Offset="1"/>
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF244D95"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid Margin="10,15,10,0" Height="80" VerticalAlignment="Top" Grid.ColumnSpan="2">
@@ -57,8 +57,8 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <TextBlock x:Name="commentTextBlock" HorizontalAlignment="Left" Margin="56,0,0,205" FontSize="16" TextWrapping="Wrap" Text="We can add an event to the datepicker, so it will automatically updatteh textblock, button is absolete" VerticalAlignment="Bottom" Height="105" Width="242" Grid.ColumnSpan="2"/>
-        <StackPanel HorizontalAlignment="Left" Height="545" Margin="256,100,0,0" VerticalAlignment="Top" Width="379" Grid.Column="1">
+        <TextBlock x:Name="commentTextBlock" HorizontalAlignment="Left" Margin="56,0,0,205" FontSize="16" TextWrapping="Wrap" Text="We can add an event to the datepicker, so it will automatically updatteh textblock, button is absolete" VerticalAlignment="Bottom" Height="105" Width="242"/>
+        <StackPanel HorizontalAlignment="Right" Height="545" Margin="0,100,510,0" VerticalAlignment="Top" Width="379" Grid.Column="1">
             <TextBlock x:Name="priceInfoTextblock" TextWrapping="Wrap" Text="Here the price for the selected dates will be displayed. Or if the apt is unavailable, show which dates are unavailable" FontSize="36" Height="288"/>
             <Button x:Name="payButton" Content="Proceed to payment" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" FontSize="36" Click="payButton_Click" Foreground="Black">
                 <Button.Background>
