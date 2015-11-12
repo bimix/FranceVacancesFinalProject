@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="FranceVacancesFinalProject.View.CityPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FranceVacancesFinalProject.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF244D95" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="287*"/>
+            <ColumnDefinition Width="1079*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="685*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="10,10,10,0" Height="80" VerticalAlignment="Top" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Button x:ConnectionId='7' x:Name="homeButton" FontSize="24" Content="Home" Margin="102,-3,0,20" VerticalAlignment="Stretch" HorizontalAlignment="Left"                           >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF244D95"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='8' x:Name="loginButton" FontSize="24
+                    " Content="Login / Register" HorizontalAlignment="Right" Margin="0,-3,-3,20" VerticalAlignment="Stretch" Height="63"                           Foreground="White">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF244D95"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <TextBlock x:ConnectionId='9' x:Name="textBlock" TextAlignment="Center" Margin="385,10,450,10" TextWrapping="NoWrap" Text="France Vacances" FontSize="40" FontFamily="Blade Runner Movie Font"/>
+            <Image x:ConnectionId='10' x:Name="Logo" HorizontalAlignment="Left" Margin="276,-3,0,23" Width="84" Source="ms-appx:///Assets/3D vc.jpg"/>
+            <Button x:ConnectionId='11' x:Name="backButton" FontSize="24" Content="Back" Margin="-3,-3,0,20" VerticalAlignment="Stretch" HorizontalAlignment="Left"                         >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF244D95"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <ListView x:ConnectionId='1' x:Name="listView" Margin="10,12,10,10" Grid.Row="1" d:LayoutOverrides="TopPosition, BottomPosition">
+            <TextBlock x:ConnectionId='6' x:Name="textBlock3" TextWrapping="Wrap" Text="Here a list of apartements will appear automaticly. First page will be city info, like what attractions, museums, stuff, etc." FontSize="24"/>
+        </ListView>
+        <Image x:ConnectionId='2' x:Name="image" Grid.Column="1" Margin="82,66,428,0" Grid.Row="1" d:LayoutOverrides="LeftPosition, RightPosition" Source="ms-appx:///Assets/3D vc.jpg" Height="226" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Grid.Column="1" Margin="41,333,206,49" Grid.Row="1" TextWrapping="Wrap" FontSize="30">
+        	<Run Text="Apartement info"/>
+        	<Run Text=". We fetch it automatically from a data file."/>
+        </TextBlock>
+        <ItemsControl Grid.Column="1" HorizontalAlignment="Right" Height="316" Margin="0,12,61,0" Grid.Row="1" VerticalAlignment="Top" Width="247">
+            <TextBlock x:ConnectionId='5' x:Name="textBlock2" TextWrapping="Wrap" Text="Here the thumbnails of the pictures will appear automaticly. Remember to remove the textblock" FontSize="20"/>
+        </ItemsControl>
+        <Button x:ConnectionId='4' x:Name="bookButton" Content="BOOK NOW" Grid.Column="1" HorizontalAlignment="Stretch" Height="155" Margin="141,0,463,82" Grid.Row="1" VerticalAlignment="Bottom" FontSize="36" Background="#FFECCD0A"                          d:LayoutOverrides="LeftPosition, RightPosition" Foreground="Black" BorderBrush="White"/>
+    </Grid>
+</Page>
+
