@@ -1,3 +1,4 @@
+WinMetadata\Windows.winmd
 ApplicationInsights.config
 Assets\3D vc.jpg
 Assets\France Vacances TEXT.jpg
@@ -11,4 +12,3 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 FranceVacancesFinalProject.xr.xml
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd
