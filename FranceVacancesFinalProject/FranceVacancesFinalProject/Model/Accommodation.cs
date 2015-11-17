@@ -8,30 +8,30 @@ namespace FranceVacancesFinalProject.Model
 {
     class Accommodation
     {
-        private string _accommodationID;
-        private string _size;
+        private int _accommodationID;
+        private int _size;
         private string _location;
         private string _address;
-        private string _price;
+        private double _priceForOneNight;
         private List<string> _pictureURLList;
         private Availability _availability;
 
-        public Accommodation(string accommodatonID, string size, string location, string price, Availability availability)
+        public Accommodation(int accommodatonID, int size, string location, double priceForOneNight)
         {
             _accommodationID = accommodatonID;
             _size = size;
             _location = location;
-            _price = price;
-            _availability = availability;
+            _priceForOneNight = priceForOneNight;
+
         }
 
-        public string AccommodationID
+        public int AccommodationID
         {
             get { return _accommodationID; }
             set { _accommodationID = value; }
         }
 
-        public string Size
+        public int Size
         {
             get { return _size; }
             set { _size = value; }
@@ -47,10 +47,10 @@ namespace FranceVacancesFinalProject.Model
             get { return _location; }
             set { _location = value; }
         }
-        public string Price
+        public double PriceForOneNight
         {
-            get { return _price; }
-            set { _price = value; }
+            get { return _priceForOneNight; }
+            set { _priceForOneNight = value; }
         }
 
         public Availability Availability
@@ -67,6 +67,11 @@ namespace FranceVacancesFinalProject.Model
         public void AddPictureURL(string URL)
         {
             _pictureURLList.Add(URL);
+        }
+
+        public void GetAvailability(int accommodationID)
+        {
+           
         }
 
     }

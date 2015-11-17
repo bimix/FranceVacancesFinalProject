@@ -22,47 +22,51 @@
             <RowDefinition Height="83*"/>
             <RowDefinition Height="685*"/>
         </Grid.RowDefinitions>
+        <Image x:ConnectionId='1' x:Name="image1" Grid.Column="1" HorizontalAlignment="Left" Height="565" Margin="26,35,0,0" VerticalAlignment="Top" Width="644" Source="ms-appx:///Assets/XGFHFGHGFHFS.png" Stretch="UniformToFill" Grid.RowSpan="2" Opacity="0.25"/>
         <Grid Margin="10,10,10,0" Height="80" VerticalAlignment="Top" Grid.RowSpan="2" Grid.ColumnSpan="2">
-            <Button x:ConnectionId='7' x:Name="homeButton" FontSize="24" Content="Home" Margin="102,-3,0,20" VerticalAlignment="Stretch" HorizontalAlignment="Left"                           >
+            <Button x:ConnectionId='5' x:Name="homeButton" FontSize="24" Content="Home" Margin="172,5,0,12" VerticalAlignment="Stretch" HorizontalAlignment="Left"                            Width="123" Foreground="White" BorderBrush="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="1"/>
-                        <GradientStop Color="#FF244D95"/>
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF224888" Offset="1"/>
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:ConnectionId='8' x:Name="loginButton" FontSize="24
-                    " Content="Login / Register" HorizontalAlignment="Right" Margin="0,-3,-3,20" VerticalAlignment="Stretch" Height="63"                           Foreground="White">
+            <Button x:ConnectionId='6' x:Name="loginButton" FontSize="24                     " Content="Login / Register" HorizontalAlignment="Right" Margin="0,6,43,11" VerticalAlignment="Stretch" Height="63"                           Foreground="White" BorderBrush="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="1"/>
-                        <GradientStop Color="#FF244D95"/>
+                        <GradientStop Color="#FF010102"/>
+                        <GradientStop Color="#FF244D95" Offset="1"/>
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <TextBlock x:ConnectionId='9' x:Name="textBlock" TextAlignment="Center" Margin="385,10,450,10" TextWrapping="NoWrap" Text="France Vacances" FontSize="40" FontFamily="Blade Runner Movie Font"/>
-            <Image x:ConnectionId='10' x:Name="Logo" HorizontalAlignment="Left" Margin="276,-3,0,23" Width="84" Source="ms-appx:///Assets/3D vc.jpg"/>
-            <Button x:ConnectionId='11' x:Name="backButton" FontSize="24" Content="Back" Margin="-3,-3,0,20" VerticalAlignment="Stretch" HorizontalAlignment="Left"                         >
+            <TextBlock x:ConnectionId='7' x:Name="textBlock" TextAlignment="Center" Margin="377,12,308,8" TextWrapping="NoWrap" FontSize="40" FontFamily="Blade Runner Movie Font">
+            	<Run Foreground="White" Text="France "/>
+            	<Run Text=" "/>
+            	<Run Foreground="White" Text="Vacances"/>
+            </TextBlock>
+            <Image x:ConnectionId='8' x:Name="Logo" HorizontalAlignment="Left" Margin="276,-3,0,23" Width="84" Source="ms-appx:///Assets/3D vc.jpg"/>
+            <Button x:ConnectionId='9' x:Name="backButton" FontSize="24" Content="Back" Margin="29,5,0,12" VerticalAlignment="Stretch" HorizontalAlignment="Left"                          Foreground="White" BorderBrush="White" Width="108">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="1"/>
-                        <GradientStop Color="#FF244D95"/>
+                        <GradientStop Color="#FF010102"/>
+                        <GradientStop Color="#FF244D93" Offset="1"/>
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
         </Grid>
-        <ListView x:ConnectionId='1' x:Name="listView" Margin="10,12,10,10" Grid.Row="1" d:LayoutOverrides="TopPosition, BottomPosition">
-            <TextBlock x:ConnectionId='6' x:Name="textBlock3" TextWrapping="Wrap" Text="Here a list of apartements will appear automaticly. First page will be city info, like what attractions, museums, stuff, etc." FontSize="24"/>
-        </ListView>
-        <Image x:ConnectionId='2' x:Name="image" Grid.Column="1" Margin="82,66,428,0" Grid.Row="1" d:LayoutOverrides="LeftPosition, RightPosition" Source="ms-appx:///Assets/3D vc.jpg" Height="226" VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='3' x:Name="textBlock1" Grid.Column="1" Margin="41,333,206,49" Grid.Row="1" TextWrapping="Wrap" FontSize="30">
-        	<Run Text="Apartement info"/>
-        	<Run Text=". We fetch it automatically from a data file."/>
-        </TextBlock>
-        <ItemsControl Grid.Column="1" HorizontalAlignment="Right" Height="316" Margin="0,12,61,0" Grid.Row="1" VerticalAlignment="Top" Width="247">
-            <TextBlock x:ConnectionId='5' x:Name="textBlock2" TextWrapping="Wrap" Text="Here the thumbnails of the pictures will appear automaticly. Remember to remove the textblock" FontSize="20"/>
-        </ItemsControl>
-        <Button x:ConnectionId='4' x:Name="bookButton" Content="BOOK NOW" Grid.Column="1" HorizontalAlignment="Stretch" Height="155" Margin="141,0,463,82" Grid.Row="1" VerticalAlignment="Bottom" FontSize="36" Background="#FFECCD0A"                          d:LayoutOverrides="LeftPosition, RightPosition" Foreground="Black" BorderBrush="White"/>
+        <TextBlock x:ConnectionId='2' x:Name="textBlock1" Grid.Column="1" Margin="141,471,463,16" Grid.Row="1" TextWrapping="Wrap" FontSize="30" Text=""/>
+        <Button x:ConnectionId='3' x:Name="bookButton" Content="BOOK NOW" Grid.Column="1" HorizontalAlignment="Stretch" Height="155" Margin="141,0,463,16" Grid.Row="1" VerticalAlignment="Bottom" FontSize="36"                          Foreground="White" BorderBrush="White" FontFamily="Adobe Caslon Pro Bold" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFFBB5" Offset="0"/>
+                    <GradientStop Color="#FFFFFBB5" Offset="1"/>
+                    <GradientStop Color="#FFF5D50B" Offset="0.205"/>
+                    <GradientStop Color="#FFF5D50B" Offset="0.819"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image x:ConnectionId='4' x:Name="image" HorizontalAlignment="Left" Height="100" Grid.RowSpan="2" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>
 

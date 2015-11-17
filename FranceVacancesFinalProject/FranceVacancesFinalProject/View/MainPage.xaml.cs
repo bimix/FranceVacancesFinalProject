@@ -36,5 +36,30 @@ namespace FranceVacancesFinalProject.View
         {
             Frame.Navigate(typeof (CityPage), null);
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CityPage), null);
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CityPage), null);
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CityPage), null);
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CityPage), null);
+        }
+
+        private void button3_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CityPage), null);
+        }
     }
 }

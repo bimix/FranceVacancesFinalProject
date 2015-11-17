@@ -49,8 +49,5 @@ namespace FranceVacancesFinalProject.Model
             get { return _customerID; }
             set { _customerID = value; }
         }
-
-
-
     }
 }

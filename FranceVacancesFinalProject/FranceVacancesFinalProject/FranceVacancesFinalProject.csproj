@@ -102,8 +102,14 @@
     <Compile Include="Model\Accommodation.cs" />
     <Compile Include="Model\Availability.cs" />
     <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\CustomerCatalog.cs" />
     <Compile Include="Model\Reservation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\MainPageView.cs" />
+    <Compile Include="ViewModel\BookingPageView.cs" />
+    <Compile Include="ViewModel\CityPageView.cs" />
+    <Compile Include="ViewModel\LoginPageView.cs" />
+    <Compile Include="ViewModel\PaymentPageView.cs" />
     <Compile Include="View\BookingPage.xaml.cs" />
     <Compile Include="View\CityPage.xaml.cs" />
     <Compile Include="View\LoginPage.xaml.cs" />
@@ -120,7 +126,67 @@
   <ItemGroup>
     <Content Include="Assets\3D vc.jpg" />
     <Content Include="Assets\France Vacances TEXT.jpg" />
+    <Content Include="Assets\Marseille\City\NDdelagarde.jpg" />
+    <Content Include="Assets\Nice\Appartments\1242251998_aa5d2c91e0_o.jpg" />
+    <Content Include="Assets\Nice\Appartments\28498940.jpg" />
+    <Content Include="Assets\Nice\Appartments\32.jpg" />
+    <Content Include="Assets\Nice\Appartments\7.jpg" />
+    <Content Include="Assets\Nice\Appartments\bxbxbnx.jpg" />
+    <Content Include="Assets\Nice\Appartments\cvhmnbmtez.jpg" />
+    <Content Include="Assets\Nice\Appartments\ext_m74.jpg" />
+    <Content Include="Assets\Nice\Appartments\images.jpg" />
+    <Content Include="Assets\Nice\Appartments\iStock_000038910324Medium.jpg" />
+    <Content Include="Assets\Nice\Appartments\Les_lofts_de_Palombaggia_new.jpg" />
+    <Content Include="Assets\Nice\Appartments\nicerent-lechocolat-img_8486.jpg" />
+    <Content Include="Assets\Nice\Appartments\qwerewrw.png" />
+    <Content Include="Assets\Nice\Appartments\urjzjrzurj.jpg" />
+    <Content Include="Assets\Nice\Appartments\vcbcxvbx.JPG" />
+    <Content Include="Assets\Nice\Appartments\Villa-in-French-Riviera-41VM-1.jpg" />
+    <Content Include="Assets\Nice\Appartments\villas in Spain.jpg" />
+    <Content Include="Assets\Nice\City\dsc0447_1.jpg" />
+    <Content Include="Assets\Nice\City\Fotolia_43444999_M.jpg" />
+    <Content Include="Assets\Nice\City\moving-to-the-south-of-france.jpg" />
+    <Content Include="Assets\Nice\City\nice-1-652x2901.jpg" />
+    <Content Include="Assets\Nice\City\Nice-France.jpg" />
+    <Content Include="Assets\Nice\City\Private-Beach_Hotel-Royal-Riviera.jpg" />
+    <Content Include="Assets\Nice\City\sefsdfsd.jpg" />
+    <Content Include="Assets\Paris\Appartments\1071614.jpg" />
+    <Content Include="Assets\Paris\Appartments\27_on_27th_apartments_for_rent.png" />
+    <Content Include="Assets\Paris\Appartments\4.jpg" />
+    <Content Include="Assets\Paris\Appartments\a.Studio Apartment.jpg" />
+    <Content Include="Assets\Paris\Appartments\apartment-rentals-12.jpg" />
+    <Content Include="Assets\Paris\Appartments\appart.jpg" />
+    <Content Include="Assets\Paris\Appartments\apprtt.jpg" />
+    <Content Include="Assets\Paris\Appartments\avant-interior.jpg" />
+    <Content Include="Assets\Paris\Appartments\LetterBoxDefault.jpg" />
+    <Content Include="Assets\Paris\Appartments\View-of-Eiffel-Tower-in-Paris.jpg" />
+    <Content Include="Assets\Paris\City\A View from Notre Dame top.jpg" />
+    <Content Include="Assets\Paris\City\aerial-view-of-paris-at-sunset-resized.jpg" />
+    <Content Include="Assets\Paris\City\Aerial_view_of_Paris.jpg" />
+    <Content Include="Assets\Paris\City\ergferg.jpg" />
+    <Content Include="Assets\Paris\City\ertert.jpg" />
+    <Content Include="Assets\Paris\City\Fontaine_Place_Royale_Nantes.JPG" />
+    <Content Include="Assets\Paris\City\llklkzkz.jpg" />
+    <Content Include="Assets\Paris\City\ntzhjtzhtzh.jpg" />
+    <Content Include="Assets\Paris\City\Paris-view-slider.jpg" />
+    <Content Include="Assets\Paris\City\paris.jpg" />
+    <Content Include="Assets\Paris\City\PARIS3.jpg" />
+    <Content Include="Assets\Paris\City\paris_church_night_light-wide.jpg" />
+    <Content Include="Assets\Paris\City\Place-royale_nantes.jpg" />
+    <Content Include="Assets\Paris\City\tzjtzhjzejtz.jpg" />
+    <Content Include="Assets\Paris\City\View-of-Eiffel-Tower-in-Paris.jpg" />
+    <Content Include="Assets\Paris\City\zujrzj.jpg" />
     <Content Include="Assets\per ekspozit 2.jpg" />
+    <Content Include="Assets\St.Tropez\Appartments\st tropez 1.jpg" />
+    <Content Include="Assets\St.Tropez\Appartments\st tropez 2.png" />
+    <Content Include="Assets\St.Tropez\Appartments\st tropez 3.jpg" />
+    <Content Include="Assets\St.Tropez\Appartments\st tropez 4.jpg" />
+    <Content Include="Assets\St.Tropez\City\dsf.jpg" />
+    <Content Include="Assets\St.Tropez\City\iStock_000007066817Medium.jpg" />
+    <Content Include="Assets\St.Tropez\City\st tropez.jpg" />
+    <Content Include="Assets\St.Tropez\City\st-tropez2.jpg" />
+    <Content Include="Assets\St.Tropez\City\St.-Tropez.jpg" />
+    <Content Include="Assets\XGFHFGHGFHFS.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -135,6 +201,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Marseille\Appartments\" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="View\BookingPage.xaml">
@@ -161,9 +230,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

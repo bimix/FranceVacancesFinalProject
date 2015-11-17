@@ -25,37 +25,16 @@ namespace FranceVacancesFinalProject.View
         public BookingPage()
         {
             this.InitializeComponent();
+            
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            startDatePicker.Date = DateTimeOffset.Now.AddDays(1);
-            endDatePicker.Date = DateTimeOffset.Now.AddDays(2);
+            
         }
 
-
-        private void checkAvailabilityButton_Click(object sender, RoutedEventArgs e)
-        {
-            commentTextBlock.Text = "Start: " + startDatePicker.Date.Value.ToString("dd MMMM yyyy") + "\nEnd: " +
-                                    endDatePicker.Date.Value.ToString("dd MMMM yyyy");
-        }
-
-
-
-        // Method to black out dates.
-        private void CalendarView_CalendarViewDayItemChanging(CalendarView sender,
-                   CalendarViewDayItemChangingEventArgs args)
-        {
-            if (args.Item.Date < DateTimeOffset.Now || args.Item.Date.DayOfWeek == DayOfWeek.Sunday)
-            {
-                args.Item.IsBlackout = true;
-            }
-        }
-
-
-        // Methods to Navigate
         private void payButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(PaymentPage), null);
+            Frame.Navigate(typeof (PaymentPage), null);
         }
 
         private void cancelPaymentButton_Click(object sender, RoutedEventArgs e)
@@ -74,12 +53,17 @@ namespace FranceVacancesFinalProject.View
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-
+    
             Frame.Navigate(typeof(LoginPage), null);
         }
 
+        private void StartDatePicker_OnCalendarViewDayItemChanging(CalendarView sender, CalendarViewDayItemChangingEventArgs e)
+        {
+        }
 
-     
+        private void EndDatePicker_OnCalendarViewDayItemChanging(CalendarView sender, CalendarViewDayItemChangingEventArgs e)
+        {
+        }
     }
 }
 

@@ -7,75 +7,89 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid RenderTransformOrigin="0.498,0.505">
+    <Grid RenderTransformOrigin="0.498,0.505" HorizontalAlignment="Right" Width="1280" Height="720" VerticalAlignment="Bottom">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black"/>
-                <GradientStop Color="#FF244D95" Offset="1"/>
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF244D95"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid Margin="10,10,10,0" Height="80" VerticalAlignment="Top" Grid.RowSpan="2" Grid.ColumnSpan="2">
-            <Button x:ConnectionId='16' x:Name="homeButton" FontSize="24" Content="Home" Margin="0,-6,1145,23" VerticalAlignment="Stretch" HorizontalAlignment="Right"                         >
+            <Button x:ConnectionId='16' x:Name="homeButton" FontSize="24" Content="Home" Margin="0,8,982,9" VerticalAlignment="Stretch" HorizontalAlignment="Right"                          Width="118" BorderBrush="White" Foreground="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="1"/>
-                        <GradientStop Color="#FF244D95"/>
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF244D95" Offset="1"/>
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
             <Button x:ConnectionId='17' x:Name="loginButton" FontSize="24
-                    " Content="Login / Register" HorizontalAlignment="Right" Margin="0,-3,-3,20" VerticalAlignment="Stretch" Height="63"                          >
+                    " Content="Login / Register" HorizontalAlignment="Right" Margin="0,6,27,11" VerticalAlignment="Stretch" Height="63"                           BorderBrush="White" Foreground="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="1"/>
-                        <GradientStop Color="#FF244D95"/>
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF244D95" Offset="1"/>
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <TextBlock x:ConnectionId='18' x:Name="textBlock" TextAlignment="Center" Margin="415,10,420,10" TextWrapping="NoWrap" Text="France Vacances" FontSize="40" FontFamily="Blade Runner Movie Font"/>
-            <Image x:ConnectionId='19' x:Name="Logo" HorizontalAlignment="Left" Margin="364,0,0,20" Width="84" Source="ms-appx:///Assets/3D vc.jpg"/>
-            <Button x:ConnectionId='20' x:Name="backButton" FontSize="24" Content="Back" Margin="2,-6,0,23" VerticalAlignment="Stretch"                         >
+            <TextBlock x:ConnectionId='18' x:Name="textBlock" TextAlignment="Center" Margin="361,10,321,10" TextWrapping="NoWrap" Text="France Vacances" FontSize="40" FontFamily="Blade Runner Movie Font" Foreground="White"/>
+            <Image x:ConnectionId='19' x:Name="Logo" HorizontalAlignment="Left" Margin="381,0,0,-524" Width="474" Source="ms-appx:///Assets/XGFHFGHGFHFS.png" Height="474" VerticalAlignment="Bottom" Opacity="0.15"/>
+            <Button x:ConnectionId='20' x:Name="backButton" FontSize="24" Content="Back" Margin="12,8,0,9" VerticalAlignment="Stretch"                          Width="119" BorderBrush="White" Foreground="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="1"/>
-                        <GradientStop Color="#FF244D95"/>
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF244D95" Offset="1"/>
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
         </Grid>
-        <Grid HorizontalAlignment="Left" Margin="107,145,0,143" Width="378">
-            <TextBlock x:ConnectionId='7' x:Name="textBlock1" FontSize="24" Margin="10,10,10,0" TextWrapping="Wrap" Text="Please enter your information" Height="62" VerticalAlignment="Top" d:LayoutOverrides="LeftPosition, RightPosition"/>
-            <TextBox x:ConnectionId='8' x:Name="userFullname" PlaceholderText="Full name" Height="36" Margin="108,175,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment, LeftPosition, RightPosition"/>
-            <TextBox x:ConnectionId='9' x:Name="userEmailTextbox" PlaceholderText="Email address" Margin="108,0,10,204" TextWrapping="Wrap" Text="" d:LayoutOverrides="HorizontalAlignment, LeftPosition, RightPosition" Height="36" VerticalAlignment="Bottom"/>
-            <TextBox x:ConnectionId='10' x:Name="userAddressTextbox" PlaceholderText="Address" Margin="108,0,10,155" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" d:LayoutOverrides="LeftPosition, RightPosition" Height="36"/>
-            <TextBox x:ConnectionId='11' x:Name="userPhonenumberTextbox" PlaceholderText="Phonenumber" Height="36" Margin="108,0,10,101" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" d:LayoutOverrides="LeftPosition, RightPosition"/>
-            <TextBlock x:ConnectionId='12' x:Name="textBlock3" HorizontalAlignment="Left" Margin="0,192,0,0" TextWrapping="Wrap" Text="Full name:" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" FontSize="16"/>
+        <Grid HorizontalAlignment="Left" Margin="115,146,0,142" Width="378">
+            <TextBlock x:ConnectionId='7' x:Name="textBlock1" FontSize="24" Margin="10,37,10,0" TextWrapping="Wrap" Text="Please enter your information" Height="62" VerticalAlignment="Top" d:LayoutOverrides="LeftPosition, RightPosition" Foreground="White"/>
+            <TextBox x:ConnectionId='8' x:Name="userFullname" PlaceholderText="Full name" Height="36" Margin="108,132,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment, LeftPosition, RightPosition" Foreground="Black" BorderBrush="White"/>
+            <TextBox x:ConnectionId='9' x:Name="userEmailTextbox" PlaceholderText="Email address" Margin="108,0,10,208" TextWrapping="Wrap" Text="" d:LayoutOverrides="HorizontalAlignment, LeftPosition, RightPosition" Height="36" VerticalAlignment="Bottom" BorderBrush="White"/>
+            <TextBox x:ConnectionId='10' x:Name="userAddressTextbox" PlaceholderText="Address" Margin="108,0,10,153" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" d:LayoutOverrides="LeftPosition, RightPosition" Height="36" BorderBrush="White"/>
+            <TextBox x:ConnectionId='11' x:Name="userPhonenumberTextbox" PlaceholderText="Phonenumber" Height="36" Margin="108,0,10,96" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" d:LayoutOverrides="LeftPosition, RightPosition" BorderBrush="White"/>
+            <TextBlock x:ConnectionId='12' x:Name="textBlock3" HorizontalAlignment="Left" Margin="0,140,0,0" TextWrapping="Wrap" Text="Full name:" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" FontSize="16" Foreground="White"/>
 
-            <TextBlock x:ConnectionId='13' x:Name="textBlock5" HorizontalAlignment="Left" Margin="10,0,0,165" TextWrapping="Wrap" Text="address" VerticalAlignment="Bottom" FontSize="16"/>
-            <TextBlock x:ConnectionId='14' x:Name="textBlock6" HorizontalAlignment="Left" Margin="0,0,0,111" TextWrapping="Wrap" Text="Phonenumber" VerticalAlignment="Bottom" FontSize="16"/>
-            <TextBlock x:ConnectionId='15' x:Name="textBlock4" HorizontalAlignment="Left" Margin="10,0,0,220" TextWrapping="Wrap" Text="email:" VerticalAlignment="Bottom" FontSize="16"/>
+            <TextBlock x:ConnectionId='13' x:Name="textBlock5" HorizontalAlignment="Left" Margin="2,0,0,160" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="16" Foreground="White">
+            	<Run Text="Ad"/>
+            	<Run Text="dress"/>
+            	<Run Text=":"/>
+            </TextBlock>
+            <TextBlock x:ConnectionId='14' x:Name="textBlock6" HorizontalAlignment="Left" Margin="0,0,0,104" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="16" Foreground="White">
+            	<Run Text="Phone"/>
+            	<Run Text=" "/>
+            	<Run Text="number"/>
+            	<Run Text=":"/>
+            </TextBlock>
+            <TextBlock x:ConnectionId='15' x:Name="textBlock4" HorizontalAlignment="Left" Margin="3,0,0,214" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="16" Foreground="White">
+            	<Run Text="E"/>
+            	<Run Text="mail:"/>
+            </TextBlock>
         </Grid>
         <Grid HorizontalAlignment="Right" Margin="0,189,116,214" Width="495">
-            <TextBlock x:ConnectionId='3' x:Name="textBlock2" FontSize="24" HorizontalAlignment="Left" Margin="155,30,0,0" TextWrapping="Wrap" Text="Payment info" VerticalAlignment="Top"/>
-            <TextBox x:ConnectionId='4' x:Name="cardNumberTextbox" PlaceholderText="Card Number" Height="30" Margin="10,136,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <TextBox x:ConnectionId='5' x:Name="cardholderNameTextbox" PlaceholderText="Card Holder/ owner" Height="35" Margin="10,81,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-            <DatePicker HorizontalAlignment="Stretch" Header="Expiration date" MonthFormat="month.numeric" DayVisible="False" Margin="10,0,168,119" VerticalAlignment="Bottom" d:LayoutOverrides="Width"/>
-            <TextBox x:ConnectionId='6' x:Name="securityCodeTextbox" PlaceholderText="Security code / CVC number" Margin="10,0,0,64" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="160"/>
+            <TextBlock x:ConnectionId='3' x:Name="textBlock2" FontSize="24" HorizontalAlignment="Left" Margin="158,-10,0,0" TextWrapping="Wrap" Text="Payment info" VerticalAlignment="Top" Foreground="White"/>
+            <TextBox x:ConnectionId='4' x:Name="cardNumberTextbox" PlaceholderText="Card Number" Height="30" Margin="35,137,-15,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FFFFDC00"/>
+            <TextBox x:ConnectionId='5' x:Name="cardholderNameTextbox" PlaceholderText="Card Holder/ owner" Height="35" Margin="36,85,-16,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FFFFDC00"/>
+            <DatePicker HorizontalAlignment="Stretch" Header="Expiration date" MonthFormat="month.numeric" DayVisible="False" Margin="37,0,141,74" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment, Width" BorderBrush="#FFFFDC00" Foreground="#FF424242"/>
+            <TextBox x:ConnectionId='6' x:Name="securityCodeTextbox" PlaceholderText="Security code / CVC number" Margin="39,0,244,23" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" d:LayoutOverrides="LeftPosition, RightPosition" Foreground="WhiteSmoke" BorderBrush="#FFFFDC00"/>
         </Grid>
-        <Button x:ConnectionId='1' x:Name="payButton" Content="Confirm payment" FontSize="24" Margin="450,0,553,100" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Height="108"                         Foreground="White">
+        <Button x:ConnectionId='1' x:Name="payButton" Content="Confirm payment" FontSize="24" Margin="450,0,553,100" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Height="108"                         Foreground="White" BorderBrush="White">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFFFAE00" Offset="1"/>
-                    <GradientStop Color="#FF654500"/>
+                    <GradientStop Color="#FFFFEFCC" Offset="1"/>
+                    <GradientStop Color="#FFFFEFCC"/>
+                    <GradientStop Color="#FFD8D808" Offset="0.209"/>
+                    <GradientStop Color="#FFD6BA06" Offset="0.803"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='2' x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Stretch" Height="45" Margin="610,0,651,28" VerticalAlignment="Bottom"                           >
+        <Button x:ConnectionId='2' x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Stretch" Height="45" Margin="522,0,620,31" VerticalAlignment="Bottom"                            BorderBrush="White" Foreground="White">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="1"/>
-                    <GradientStop Color="#FF244D95"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF244D95" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>

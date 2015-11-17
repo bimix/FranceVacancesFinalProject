@@ -30,8 +30,162 @@
     <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Marseille\City\NDdelagarde.jpg">
+      <PackagePath>Assets\Marseille\City\NDdelagarde.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\1242251998_aa5d2c91e0_o.jpg">
+      <PackagePath>Assets\Nice\Appartments\1242251998_aa5d2c91e0_o.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\28498940.jpg">
+      <PackagePath>Assets\Nice\Appartments\28498940.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\32.jpg">
+      <PackagePath>Assets\Nice\Appartments\32.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\7.jpg">
+      <PackagePath>Assets\Nice\Appartments\7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\bxbxbnx.jpg">
+      <PackagePath>Assets\Nice\Appartments\bxbxbnx.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\cvhmnbmtez.jpg">
+      <PackagePath>Assets\Nice\Appartments\cvhmnbmtez.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\ext_m74.jpg">
+      <PackagePath>Assets\Nice\Appartments\ext_m74.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\images.jpg">
+      <PackagePath>Assets\Nice\Appartments\images.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\iStock_000038910324Medium.jpg">
+      <PackagePath>Assets\Nice\Appartments\iStock_000038910324Medium.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\Les_lofts_de_Palombaggia_new.jpg">
+      <PackagePath>Assets\Nice\Appartments\Les_lofts_de_Palombaggia_new.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\nicerent-lechocolat-img_8486.jpg">
+      <PackagePath>Assets\Nice\Appartments\nicerent-lechocolat-img_8486.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\qwerewrw.png">
+      <PackagePath>Assets\Nice\Appartments\qwerewrw.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\urjzjrzurj.jpg">
+      <PackagePath>Assets\Nice\Appartments\urjzjrzurj.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\vcbcxvbx.JPG">
+      <PackagePath>Assets\Nice\Appartments\vcbcxvbx.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\Villa-in-French-Riviera-41VM-1.jpg">
+      <PackagePath>Assets\Nice\Appartments\Villa-in-French-Riviera-41VM-1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\Appartments\villas in Spain.jpg">
+      <PackagePath>Assets\Nice\Appartments\villas in Spain.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\City\dsc0447_1.jpg">
+      <PackagePath>Assets\Nice\City\dsc0447_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\City\Fotolia_43444999_M.jpg">
+      <PackagePath>Assets\Nice\City\Fotolia_43444999_M.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\City\moving-to-the-south-of-france.jpg">
+      <PackagePath>Assets\Nice\City\moving-to-the-south-of-france.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\City\nice-1-652x2901.jpg">
+      <PackagePath>Assets\Nice\City\nice-1-652x2901.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\City\Nice-France.jpg">
+      <PackagePath>Assets\Nice\City\Nice-France.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\City\Private-Beach_Hotel-Royal-Riviera.jpg">
+      <PackagePath>Assets\Nice\City\Private-Beach_Hotel-Royal-Riviera.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Nice\City\sefsdfsd.jpg">
+      <PackagePath>Assets\Nice\City\sefsdfsd.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\1071614.jpg">
+      <PackagePath>Assets\Paris\Appartments\1071614.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\27_on_27th_apartments_for_rent.png">
+      <PackagePath>Assets\Paris\Appartments\27_on_27th_apartments_for_rent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\4.jpg">
+      <PackagePath>Assets\Paris\Appartments\4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\a.Studio Apartment.jpg">
+      <PackagePath>Assets\Paris\Appartments\a.Studio Apartment.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\apartment-rentals-12.jpg">
+      <PackagePath>Assets\Paris\Appartments\apartment-rentals-12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\appart.jpg">
+      <PackagePath>Assets\Paris\Appartments\appart.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\apprtt.jpg">
+      <PackagePath>Assets\Paris\Appartments\apprtt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\avant-interior.jpg">
+      <PackagePath>Assets\Paris\Appartments\avant-interior.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\LetterBoxDefault.jpg">
+      <PackagePath>Assets\Paris\Appartments\LetterBoxDefault.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\Appartments\View-of-Eiffel-Tower-in-Paris.jpg">
+      <PackagePath>Assets\Paris\Appartments\View-of-Eiffel-Tower-in-Paris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\A View from Notre Dame top.jpg">
+      <PackagePath>Assets\Paris\City\A View from Notre Dame top.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\aerial-view-of-paris-at-sunset-resized.jpg">
+      <PackagePath>Assets\Paris\City\aerial-view-of-paris-at-sunset-resized.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\Aerial_view_of_Paris.jpg">
+      <PackagePath>Assets\Paris\City\Aerial_view_of_Paris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\ergferg.jpg">
+      <PackagePath>Assets\Paris\City\ergferg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\ertert.jpg">
+      <PackagePath>Assets\Paris\City\ertert.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\Fontaine_Place_Royale_Nantes.JPG">
+      <PackagePath>Assets\Paris\City\Fontaine_Place_Royale_Nantes.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\llklkzkz.jpg">
+      <PackagePath>Assets\Paris\City\llklkzkz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\ntzhjtzhtzh.jpg">
+      <PackagePath>Assets\Paris\City\ntzhjtzhtzh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\Paris-view-slider.jpg">
+      <PackagePath>Assets\Paris\City\Paris-view-slider.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\paris.jpg">
+      <PackagePath>Assets\Paris\City\paris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\PARIS3.jpg">
+      <PackagePath>Assets\Paris\City\PARIS3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\paris_church_night_light-wide.jpg">
+      <PackagePath>Assets\Paris\City\paris_church_night_light-wide.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\Place-royale_nantes.jpg">
+      <PackagePath>Assets\Paris\City\Place-royale_nantes.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\tzjtzhjzejtz.jpg">
+      <PackagePath>Assets\Paris\City\tzjtzhjzejtz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\View-of-Eiffel-Tower-in-Paris.jpg">
+      <PackagePath>Assets\Paris\City\View-of-Eiffel-Tower-in-Paris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Paris\City\zujrzj.jpg">
+      <PackagePath>Assets\Paris\City\zujrzj.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\per ekspozit 2.jpg">
       <PackagePath>Assets\per ekspozit 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -49,6 +203,33 @@
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\Appartments\st tropez 1.jpg">
+      <PackagePath>Assets\St.Tropez\Appartments\st tropez 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\Appartments\st tropez 2.png">
+      <PackagePath>Assets\St.Tropez\Appartments\st tropez 2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\Appartments\st tropez 3.jpg">
+      <PackagePath>Assets\St.Tropez\Appartments\st tropez 3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\Appartments\st tropez 4.jpg">
+      <PackagePath>Assets\St.Tropez\Appartments\st tropez 4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\City\dsf.jpg">
+      <PackagePath>Assets\St.Tropez\City\dsf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\City\iStock_000007066817Medium.jpg">
+      <PackagePath>Assets\St.Tropez\City\iStock_000007066817Medium.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\City\st tropez.jpg">
+      <PackagePath>Assets\St.Tropez\City\st tropez.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\City\st-tropez2.jpg">
+      <PackagePath>Assets\St.Tropez\City\st-tropez2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\St.Tropez\City\St.-Tropez.jpg">
+      <PackagePath>Assets\St.Tropez\City\St.-Tropez.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -56,6 +237,9 @@
     <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\Assets\XGFHFGHGFHFS.png">
+      <PackagePath>Assets\XGFHFGHGFHFS.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x86\Debug\Core\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
