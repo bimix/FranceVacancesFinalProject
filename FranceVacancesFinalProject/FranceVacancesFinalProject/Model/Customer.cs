@@ -14,6 +14,10 @@ namespace FranceVacancesFinalProject.Model
         private string _phonenumber;
         private string _customerID;
 
+        public Customer()
+        {
+            
+        }
         public Customer(string name, string address, string email, string phonenumber, string customerID)
         {
             _name = name;

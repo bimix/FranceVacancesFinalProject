@@ -9,7 +9,7 @@ using FranceVacancesFinalProject.Model;
 
 namespace FranceVacancesFinalProject.ViewModel
 {
-    
+
     /*
     This code is just for testing, we need to add data binding to CityPage.
     */
@@ -27,8 +27,9 @@ namespace FranceVacancesFinalProject.ViewModel
             Accommodation acc2 = new Accommodation(1234, 44, "Lyon", 852.2);
             aList.Add(acc1);
             aList.Add(acc2);
+            
         }
-     
+
         protected void OnPropertyChanged(string propertyName)
         {
             if (PropertyChanged != null)

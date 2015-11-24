@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace FranceVacancesFinalProject.Model
 {
-    class CustomerCatalog
+    public class CustomerCatalog
     {
+        
+        Dictionary<string,Customer> _customerList = new Dictionary<string, Customer>();
 
+        
+        public void Register()
+        {
+           
+        }
+
+        public void Login()
+        {
+
+        }
     }
 }

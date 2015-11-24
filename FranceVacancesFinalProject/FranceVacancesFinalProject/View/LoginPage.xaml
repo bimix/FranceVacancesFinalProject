@@ -91,11 +91,11 @@
             	<Run Foreground="White" Text="Phone "/>
             	<Run Foreground="White" Text="Number"/>
             </TextBlock>
-            <TextBox x:Name="textBox1" PlaceholderText="Full name" Height="5" Margin="175,125,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="White"/>
-            <TextBox x:Name="textBox2" PlaceholderText="Address" Height="13" Margin="175,169,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="White"/>
-            <TextBox x:Name="textBox3" PlaceholderText="Email address" Height="25" Margin="175,214,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="White"/>
+            <TextBox x:Name="registerFullName" PlaceholderText="Full name" Height="5" Margin="175,125,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="White"/>
+            <TextBox x:Name="registerAddress" PlaceholderText="Address" Height="13" Margin="175,169,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="White"/>
+            <TextBox x:Name="registerEmail" PlaceholderText="Email address" Height="25" Margin="175,214,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="White"/>
             <TextBox x:Name="textBox5" PlaceholderText="Phone number" Height="23" Margin="175,259,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="White"/>
-            <Button x:Name="button1" Content="Register" HorizontalAlignment="Stretch" Height="85" Margin="172,0,158,39" VerticalAlignment="Bottom" Foreground="White" BorderBrush="White">
+            <Button x:Name="registerButton" Content="Register" HorizontalAlignment="Stretch" Height="85" Margin="172,0,158,39" VerticalAlignment="Bottom" Foreground="White" BorderBrush="White" Click="button1_Click">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Black"/>

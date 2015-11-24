@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using FranceVacancesFinalProject.Model;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -35,6 +36,14 @@ namespace FranceVacancesFinalProject.View
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.GoBack();
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Customer customer = new Customer();
+            customer.Name = registerFullName.Text;
+            customer.Address = registerAddress.Text;
+            customer.Email = registerEmail.Text;
         }
     }
 }

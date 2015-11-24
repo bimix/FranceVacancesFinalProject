@@ -1,13 +1,17 @@
 ﻿<Page
-    x:Class="FranceVacancesFinalProject.View.CityPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:FranceVacancesFinalProject.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ViewModel="using:FranceVacancesFinalProject.ViewModel"
+    x:Class="FranceVacancesFinalProject.View.CityPage"
     mc:Ignorable="d">
 
     <Grid>
+        <Grid.DataContext>
+            <ViewModel:CityPageView/>
+        </Grid.DataContext>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black"/>
@@ -22,6 +26,7 @@
             <RowDefinition Height="83*"/>
             <RowDefinition Height="685*"/>
         </Grid.RowDefinitions>
+
         <Image x:Name="image1" Grid.Column="1" HorizontalAlignment="Left" Height="565" Margin="26,35,0,0" VerticalAlignment="Top" Width="644" Source="ms-appx:///Assets/XGFHFGHGFHFS.png" Stretch="UniformToFill" Grid.RowSpan="2" Opacity="0.25"/>
         <Grid Margin="10,10,10,0" Height="80" VerticalAlignment="Top" Grid.RowSpan="2" Grid.ColumnSpan="2">
             <Button x:Name="homeButton" FontSize="24" Content="Home" Margin="172,5,0,12" VerticalAlignment="Stretch" HorizontalAlignment="Left" Click="homeButton_Click_1" Width="123" Foreground="White" BorderBrush="White">
@@ -41,9 +46,9 @@
                 </Button.Background>
             </Button>
             <TextBlock x:Name="textBlock" TextAlignment="Center" Margin="377,12,308,8" TextWrapping="NoWrap" FontSize="40" FontFamily="Blade Runner Movie Font">
-            	<Run Foreground="White" Text="France "/>
-            	<Run Text=" "/>
-            	<Run Foreground="White" Text="Vacances"/>
+				<Run Foreground="White" Text="France "/>
+				<Run Text=" "/>
+				<Run Foreground="White" Text="Vacances"/>
             </TextBlock>
             <Image x:Name="Logo" HorizontalAlignment="Left" Margin="276,-3,0,23" Width="84" Source="ms-appx:///Assets/3D vc.jpg"/>
             <Button x:Name="backButton" FontSize="24" Content="Back" Margin="29,5,0,12" VerticalAlignment="Stretch" HorizontalAlignment="Left" Click="backButton_Click" Foreground="White" BorderBrush="White" Width="108">

@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using FranceVacancesFinalProject.Model;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,15 +26,20 @@ namespace FranceVacancesFinalProject.View
         public BookingPage()
         {
             this.InitializeComponent();
-            
+            StartDatePicker.MinDate = DateTime.Now;
+            EndDatePicker.MinDate = DateTime.Now;
+
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             
         }
 
+
+        // Navigation methods.
         private void payButton_Click(object sender, RoutedEventArgs e)
         {
+            
             Frame.Navigate(typeof (PaymentPage), null);
         }
 
@@ -51,18 +57,68 @@ namespace FranceVacancesFinalProject.View
             Frame.Navigate(typeof(MainPage), null);
         }
 
+
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
     
             Frame.Navigate(typeof(LoginPage), null);
         }
 
-        private void StartDatePicker_OnCalendarViewDayItemChanging(CalendarView sender, CalendarViewDayItemChangingEventArgs e)
+
+        // Calendar picker methods.
+        private void StartDatePicker_OnCalendarViewDayItemChanging(CalendarView sender, CalendarViewDayItemChangingEventArgs args)
         {
+            if (args.Item.Date.DayOfWeek == DayOfWeek.Sunday)
+            {
+                args.Item.IsBlackout = true;
+            }
         }
 
-        private void EndDatePicker_OnCalendarViewDayItemChanging(CalendarView sender, CalendarViewDayItemChangingEventArgs e)
+        private void EndDatePicker_OnCalendarViewDayItemChanging(CalendarView sender, CalendarViewDayItemChangingEventArgs args)
         {
+
+        }
+
+
+
+
+        // Button click methods.
+        private void checkAvailabilityButton_Click(object sender, RoutedEventArgs e)
+        {
+            priceInfoTextBlock.Text = PriceInfoText();
+        }
+
+
+        private int GetNumberOfDays()
+        {
+            int days;
+            
+            DateTimeOffset start = StartDatePicker.Date.Value;
+            DateTimeOffset end = EndDatePicker.Date.Value;
+            TimeSpan howManyDays = end - start;
+            
+            days = Int32.Parse(howManyDays.Days.ToString("D"));
+            return days;
+        }
+
+        private double CalculatePrice()
+        {
+            double totalCost = 0;
+            int days = GetNumberOfDays();
+            // Here we need to get the price according to accommodation ID and calulate the total price.
+            
+            // double price = AccommodationID.PriceForOneNight
+            //totalCost = days * price;
+            return totalCost;
+        }
+
+        private string PriceInfoText()
+        {
+            string output = "";
+            output += "Your chosen start date: " + StartDatePicker.Date.Value.ToString("dd MMMM yy");
+            output += "\nYour chosen end date: " + EndDatePicker.Date.Value.ToString("dd MMMM yy");
+            output += "\n\nTotal price for " + GetNumberOfDays() + " nights is: " + CalculatePrice();
+            return output;
         }
     }
 }
