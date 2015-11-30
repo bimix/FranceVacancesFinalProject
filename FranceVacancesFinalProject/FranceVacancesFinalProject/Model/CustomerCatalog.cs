@@ -26,6 +26,8 @@ namespace FranceVacancesFinalProject.Model
         public string Password { get; set; }
         public int SelectedIndex { get; set; }
 
+
+        // Commented out because this should be in the LoginPageView !
     //    public RelayCommand AddCustomerInfoCommand { get; set; }
      //   public RelayCommand RemoveCustomerInfoCommand { get; set; }
        // public RelayCommand GetCustomerInfoCommand { get; set; }

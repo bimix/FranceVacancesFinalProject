@@ -7,6 +7,10 @@
     <RootPropertyPathName Name="ImgUrl" />
     <RootPropertyPathName Name="Details" />
     <RootPropertyPathName Name="Accommodations" />
+    <RootPropertyPathName Name="CustomerInfos" />
+    <RootPropertyPathName Name="GetCustomerInfoCommand" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="Password" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -78,6 +82,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="Opacity" />
       <RootEvent Name="Click" />
     </RootType>
@@ -167,6 +172,7 @@
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="FranceVacancesFinalProject.View.CityPage" />
+    <RootType FullName="FranceVacancesFinalProject.ViewModel.LoginPageView" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="Height" />
@@ -174,15 +180,14 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="SelectionHighlightColor" />
-      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="Height" />
       <RootProperty Name="PlaceholderText" />
     </RootType>
