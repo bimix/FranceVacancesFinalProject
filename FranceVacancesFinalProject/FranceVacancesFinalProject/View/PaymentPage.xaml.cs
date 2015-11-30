@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using FranceVacancesFinalProject.ViewModel;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -40,19 +41,16 @@ namespace FranceVacancesFinalProject.View
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof (CityPage), null);
+            Frame.Navigate(typeof(CityPage), null);
         }
 
         private void payButton_Click(object sender, RoutedEventArgs e)
         {
-           
-            Frame.Navigate(typeof (MainPage), null);
+            Frame.Navigate(typeof(ConfirmationPage), null);
         }
-
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(LoginPage), null);
-
         }
     }
 }

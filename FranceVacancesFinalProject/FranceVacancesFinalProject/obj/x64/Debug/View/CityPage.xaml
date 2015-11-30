@@ -6,9 +6,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ViewModel="using:FranceVacancesFinalProject.ViewModel"
     x:Class="FranceVacancesFinalProject.View.CityPage"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Height="823.365" Width="1371.346">
 
-    <Grid>
+    <Grid Margin="0,0,-50,-41">
         <Grid.DataContext>
             <ViewModel:CityPageView/>
         </Grid.DataContext>
@@ -26,10 +26,9 @@
             <RowDefinition Height="83*"/>
             <RowDefinition Height="685*"/>
         </Grid.RowDefinitions>
-
-        <Image x:ConnectionId='1' x:Name="image1" Grid.Column="1" HorizontalAlignment="Left" Height="565" Margin="26,35,0,0" VerticalAlignment="Top" Width="644" Source="ms-appx:///Assets/XGFHFGHGFHFS.png" Stretch="UniformToFill" Grid.RowSpan="2" Opacity="0.25"/>
+        <Image x:ConnectionId='1' x:Name="image1" Grid.Column="1" HorizontalAlignment="Left" Height="565" Margin="100,2,0,0" VerticalAlignment="Top" Width="644" Source="ms-appx:///Assets/XGFHFGHGFHFS.png" Stretch="UniformToFill" Opacity="0.25" Grid.Row="1"/>
         <Grid Margin="10,10,10,0" Height="80" VerticalAlignment="Top" Grid.RowSpan="2" Grid.ColumnSpan="2">
-            <Button x:ConnectionId='5' x:Name="homeButton" FontSize="24" Content="Home" Margin="172,5,0,12" VerticalAlignment="Stretch" HorizontalAlignment="Left"                            Width="123" Foreground="White" BorderBrush="White">
+            <Button x:ConnectionId='10' x:Name="homeButton" FontSize="24" Content="Home" Margin="172,5,0,12" VerticalAlignment="Stretch" HorizontalAlignment="Left"                            Width="123" Foreground="White" BorderBrush="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Black"/>
@@ -37,7 +36,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:ConnectionId='6' x:Name="loginButton" FontSize="24                     " Content="Login / Register" HorizontalAlignment="Right" Margin="0,6,43,11" VerticalAlignment="Stretch" Height="63"                           Foreground="White" BorderBrush="White">
+            <Button x:ConnectionId='11' x:Name="loginButton" FontSize="24                     " Content="Login / Register" HorizontalAlignment="Right" Margin="0,6,43,11" VerticalAlignment="Stretch" Height="63"                           Foreground="White" BorderBrush="White">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF010102"/>
@@ -45,13 +44,12 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <TextBlock x:ConnectionId='7' x:Name="textBlock" TextAlignment="Center" Margin="377,12,308,8" TextWrapping="NoWrap" FontSize="40" FontFamily="Blade Runner Movie Font">
+            <TextBlock x:ConnectionId='12' x:Name="textBlock" TextAlignment="Center" Margin="377,12,308,8" TextWrapping="NoWrap" FontSize="40" FontFamily="Blade Runner Movie Font">
 				<Run Foreground="White" Text="France "/>
 				<Run Text=" "/>
 				<Run Foreground="White" Text="Vacances"/>
             </TextBlock>
-            <Image x:ConnectionId='8' x:Name="Logo" HorizontalAlignment="Left" Margin="276,-3,0,23" Width="84" Source="ms-appx:///Assets/3D vc.jpg"/>
-            <Button x:ConnectionId='9' x:Name="backButton" FontSize="24" Content="Back" Margin="29,5,0,12" VerticalAlignment="Stretch" HorizontalAlignment="Left"                          Foreground="White" BorderBrush="White" Width="108">
+            <Button x:ConnectionId='13' x:Name="backButton" FontSize="24" Content="Back" Margin="29,5,0,12" VerticalAlignment="Stretch" HorizontalAlignment="Left"                          Foreground="White" BorderBrush="White" Width="108">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF010102"/>
@@ -72,6 +70,12 @@
             </Button.Background>
         </Button>
         <Image x:ConnectionId='4' x:Name="image" HorizontalAlignment="Left" Height="100" Grid.RowSpan="2" VerticalAlignment="Top" Width="100"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="-950,471,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100"/>
+        <ListView x:ConnectionId='5' x:Name="listView" HorizontalAlignment="Left" Height="570" VerticalAlignment="Top" Width="202" Margin="87,80,0,0" Grid.Row="1"                                              SelectedItem="{Binding SelectedAccommodation, Mode=TwoWay}" BorderBrush="#FFF2EDED" Foreground="#FFFDFFFF" ItemsSource="{Binding Accommodations}"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding SelectedAccommodation.Details}" VerticalAlignment="Top" Grid.Column="1" Margin="786,332,0,0" Grid.Row="1" Height="203" Width="212" Foreground="#FFFEF7F7"/>
+        <TextBlock x:ConnectionId='7' x:Name="textBlock5" Grid.Column="1" HorizontalAlignment="Left" Margin="909,191,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='8' x:Name="textBlock7" HorizontalAlignment="Left" Height="3" Margin="193,208,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="0"/>
+        <Image x:ConnectionId='9' x:Name="image2" HorizontalAlignment="Left" Height="217" VerticalAlignment="Top" Width="304" Grid.Column="1" Margin="763,64,0,0" Grid.Row="1" Source="{Binding SelectedAccommodation.ImgUrl}"/>
     </Grid>
 </Page>
 

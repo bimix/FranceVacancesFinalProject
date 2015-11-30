@@ -643,3 +643,17 @@ C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacance
 C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\Core\Assets\Nice\Appartments\NiceApp1-4.png
 C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\Core\Assets\Paris\Appartments\ParisApp2-1.png
 C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\Core\Assets\St.Tropez\Appartments\tropezApp4-1.png
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\View\ConfirmationPage.g.i.cs
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\View\ConfirmationPage.g.cs
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\View\ConfirmationPage.xaml
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\View\ConfirmationPage.xbf
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x64\Debug\View\ConfirmationPage.xbf
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x64\Debug\Core\Microsoft.Xaml.Interactions.dll
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x64\Debug\Core\Microsoft.Xaml.Interactivity.dll
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x64\Debug\Core\Newtonsoft.Json.dll
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x64\Debug\Microsoft.Xaml.Interactions.dll
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x64\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\Core\Microsoft.Xaml.Interactions.dll
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\Core\Microsoft.Xaml.Interactivity.dll
+C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\obj\x64\Debug\Core\Newtonsoft.Json.dll

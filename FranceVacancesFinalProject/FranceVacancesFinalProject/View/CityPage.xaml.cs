@@ -40,13 +40,23 @@ namespace FranceVacancesFinalProject.View
 
         private void bookButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof (BookingPage), null);
+            Frame.Navigate(typeof(BookingPage), null);
         }
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(LoginPage), null);
 
+        }
+
+        private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CityPage), null);
         }
     }
 

@@ -1,35 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace FranceVacancesFinalProject.Model
 {
-    class Accommodation
+    public class Accommodation
     {
         private int _accommodationID;
-        private int _size;
+        private string _size;
         private string _location;
         private string _address;
-        private double _priceForOneNight;
-        private List<string> _pictureURLList;
-        private Availability _availability = new Availability();
+        private string _priceForOneNight;
+        private string _details;
+        private string _imgUrl;
 
-        public Accommodation(int accommodatonID, int size, string location, double priceForOneNight)
+
+        public Accommodation(int accommodatonID, string size, string location, string priceForOneNight)
         {
             _accommodationID = accommodatonID;
             _size = size;
             _location = location;
             _priceForOneNight = priceForOneNight;
+
         }
-        public Accommodation(int accommodatonID, int size, string location, double priceForOneNight, Availability availability)
+
+        public Accommodation()
         {
-            _accommodationID = accommodatonID;
-            _size = size;
-            _location = location;
-            _priceForOneNight = priceForOneNight;
-            _availability = availability;
         }
 
         public int AccommodationID
@@ -38,7 +37,9 @@ namespace FranceVacancesFinalProject.Model
             set { _accommodationID = value; }
         }
 
-        public int Size
+
+
+        public string Size
         {
             get { return _size; }
             set { _size = value; }
@@ -54,25 +55,33 @@ namespace FranceVacancesFinalProject.Model
             get { return _location; }
             set { _location = value; }
         }
-        public double PriceForOneNight
+        public string PriceForOneNight
         {
             get { return _priceForOneNight; }
             set { _priceForOneNight = value; }
         }
-
-        public Availability Availability
+        public string Details
         {
-            get { return _availability; }
+            get { return _details; }
+            set { _details = value; }
         }
+        public string ImgUrl
+        {
+            get { return _imgUrl; }
+            set { _imgUrl = value; }
+        }
+        public override string ToString()
+        {
+            return string.Format(Location);
+        }
+
 
         // Methods -------------------------
 
 
         //Method to add a picture URL.
-        public void AddPictureURL(string URL)
-        {
-            _pictureURLList.Add(URL);
-        }
-        
+
+
+
     }
 }

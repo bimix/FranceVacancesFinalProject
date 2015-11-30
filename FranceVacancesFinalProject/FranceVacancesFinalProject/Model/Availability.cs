@@ -10,9 +10,18 @@ namespace FranceVacancesFinalProject.Model
     {
         private List<DateTimeOffset> availabilityList = new List<DateTimeOffset>();
 
-        public Availability()
-        {
+        private DateTimeOffset _startTime;
+        private DateTimeOffset _endTime;
 
+        public DateTimeOffset StartTime
+        {
+            get { return _startTime; }
+            set { _startTime = value; }
+        }
+        public DateTimeOffset EndTime
+        {
+            get { return _endTime; }
+            set { _endTime = value; }
         }
 
         // Method to add days 

@@ -7,7 +7,9 @@
     xmlns:ViewModel="using:FranceVacancesFinalProject.ViewModel"
     x:Class="FranceVacancesFinalProject.View.BookingPage"
     mc:Ignorable="d">
-
+    <Page.DataContext>
+        <ViewModel:BookingPageView/>
+    </Page.DataContext>
     <Border HorizontalAlignment="Right" Height="720" VerticalAlignment="Top" Width="1280">
         <Border.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -17,9 +19,7 @@
         </Border.Background>
         <ScrollViewer HorizontalAlignment="Right" Width="1280">
             <Grid Height="720" Width="1270">
-                <Grid.DataContext>
-                    <ViewModel:BookingPageView/>
-                </Grid.DataContext>
+              
                 <Image x:Name="ms_appx____Assets_XGFHFGHGFHFS_png" Margin="290,47,345,64" Source="ms-appx:///Assets/XGFHFGHGFHFS.png" RenderTransformOrigin="0.5,0.5" IsTapEnabled="False" IsRightTapEnabled="False" IsHoldingEnabled="False" ManipulationMode="None" CanDrag="True" Opacity="0.25">
                     <Image.RenderTransform>
                         <CompositeTransform ScaleY="0.95" TranslateY="-3E-06"/>
@@ -52,7 +52,7 @@
                         </Button.Background>
                     </Button>
                 </Grid>
-                <Button x:Name="checkAvailabilityButton" Content="Check availability and get prices" Margin="65,0,0,351" VerticalAlignment="Bottom" Foreground="White" BorderBrush="White" Click="checkAvailabilityButton_Click" Height="39">
+                <Button x:Name="checkAvailabilityButton" Content="Check availability and get prices" Margin="65,0,0,306" VerticalAlignment="Bottom" Foreground="White" BorderBrush="White" Click="checkAvailabilityButton_Click" Height="39" Width="250">
                     <Button.Background>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <GradientStop Color="Black"/>
@@ -78,8 +78,8 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <CalendarDatePicker x:Name="StartDatePicker" HorizontalAlignment="Left" Margin="65,180,0,0" VerticalAlignment="Top" Header="Start Date" CalendarViewDayItemChanging="StartDatePicker_OnCalendarViewDayItemChanging"/>
-                <CalendarDatePicker x:Name="EndDatePicker" HorizontalAlignment="Left" Margin="65,265,0,0" VerticalAlignment="Top" Header="End Date" CalendarViewDayItemChanging="EndDatePicker_OnCalendarViewDayItemChanging"/>
+                <CalendarDatePicker x:Name="StartDatePicker" HorizontalAlignment="Left" Margin="65,180,0,0" VerticalAlignment="Top" Header="Start Date" CalendarViewDayItemChanging="StartDatePicker_OnCalendarViewDayItemChanging" DataContext="{Binding StartTimeFromCalendar, Mode=TwoWay}"/>
+                <CalendarDatePicker x:Name="EndDatePicker" HorizontalAlignment="Left" Margin="65,265,0,0" VerticalAlignment="Top" Header="End Date" CalendarViewDayItemChanging="EndDatePicker_OnCalendarViewDayItemChanging" DataContext="{Binding EndTimeFromCalendar, Mode=TwoWay}"/>
                 <TextBlock x:Name="priceInfoTextBlock" HorizontalAlignment="Left" Margin="365,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="332" Width="495" FontSize="30"/>
             </Grid>
         </ScrollViewer>
