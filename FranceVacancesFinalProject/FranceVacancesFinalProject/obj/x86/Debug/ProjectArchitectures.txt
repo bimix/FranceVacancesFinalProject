@@ -1,1 +1,1 @@
-C:\Git\Repos\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject.csproj;x86
+C:\Users\John\Source\Repos\NEWFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject\FranceVacancesFinalProject.csproj;x86
