@@ -1,6 +1,7 @@
 App.xbf
 View\BookingPage.xbf
 View\CityPage.xbf
+View\ConfirmationPage.xbf
 View\LoginPage.xbf
 View\MainPage.xbf
 View\PaymentPage.xbf
