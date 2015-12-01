@@ -51,7 +51,7 @@
             </Button>
         </Grid>
         <Grid Margin="55,129,0,39" HorizontalAlignment="Left" Width="475">
-            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Width="465" Height="65">
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Width="465" Height="65" Foreground="#FFFDF7F7">
 				<Run Text="Login information"/>
 				<LineBreak/>
 				<Run/>
@@ -67,26 +67,26 @@
             <Button x:Name="button" Content="Login" HorizontalAlignment="Stretch" Height="70" Margin="155,0,118,180" VerticalAlignment="Bottom" DataContext="{Binding GetCustomerInfoCommand}" Click="button_Click"/>
         </Grid>
         <Grid HorizontalAlignment="Right" Margin="0,145,50,53" Width="525">
-            <TextBlock x:Name="textBlock4" Margin="110,45,140,0" TextWrapping="Wrap" Text="Registration form" VerticalAlignment="Top" Height="35" d:LayoutOverrides="LeftPosition, RightPosition" FontSize="32"/>
-            <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Height="20" Margin="50,120,0,0" TextWrapping="Wrap" Text="Full name" VerticalAlignment="Top" Width="80" FontSize="16"/>
-            <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="50,170,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" FontSize="16"/>
-            <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Height="42" Margin="10,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" FontSize="16">
+            <TextBlock x:Name="textBlock4" Margin="110,45,140,0" TextWrapping="Wrap" Text="Registration form" VerticalAlignment="Top" Height="35" d:LayoutOverrides="LeftPosition, RightPosition" FontSize="32" Foreground="White"/>
+            <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Height="20" Margin="50,120,0,0" TextWrapping="Wrap" Text="Full name" VerticalAlignment="Top" Width="80" FontSize="16" Foreground="White"/>
+            <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="50,170,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" FontSize="16" Foreground="White"/>
+            <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Height="42" Margin="10,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" FontSize="16" Foreground="White">
 				<Run Text="E"/>
 				<Run Text="mail"/>
 				<Run Text=". This will be your username"/>
             </TextBlock>
-            <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="50,267,0,0" TextWrapping="Wrap" Text="Phone Number" VerticalAlignment="Top" FontSize="16"/>
+            <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="50,267,0,0" TextWrapping="Wrap" Text="Phone Number" VerticalAlignment="Top" FontSize="16" Foreground="White"/>
             <TextBox x:Name="textBox1" PlaceholderText="Full name" Height="5" Margin="175,115,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" DataContext="{Binding CustomerInfos}"/>
             <TextBox x:Name="textBox2" PlaceholderText="Address" Height="13" Margin="175,160,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" DataContext="{Binding CustomerInfos}"/>
             <TextBox x:Name="textBox3" PlaceholderText="Email address" Height="25" Margin="175,205,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" DataContext="{Binding CustomerInfos}"/>
             <TextBox x:Name="textBox5" PlaceholderText="Phone number" Height="23" Margin="175,257,145,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" DataContext="{Binding CustomerInfos}"/>
 
-            <PasswordBox x:Name="passwordBox1" Margin="175,0,145,183" VerticalAlignment="Bottom" DataContext="{Binding CustomerInfos}"/>
-            <PasswordBox x:Name="passwordBox2" Height="35" Margin="175,0,145,122" VerticalAlignment="Bottom" DataContext="{Binding CustomerInfos}"/>
-            <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" Height="32" Margin="35,0,0,183" TextWrapping="Wrap" Text="Create a password" VerticalAlignment="Bottom" Width="140" FontSize="16"/>
-            <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" Height="20" Margin="40,0,0,137" TextWrapping="Wrap" Text="confirm password" VerticalAlignment="Bottom" Width="135" FontSize="16"/>
+            <PasswordBox x:Name="passwordBox1" Margin="175,0,145,513" VerticalAlignment="Bottom" DataContext="{Binding CustomerInfos}"/>
+            <PasswordBox x:Name="passwordBox2" Height="35" Margin="180,0,140,432" VerticalAlignment="Bottom" DataContext="{Binding CustomerInfos}"/>
+            <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" Height="32" Margin="30,0,0,513" TextWrapping="Wrap" Text="Create a password" VerticalAlignment="Bottom" Width="140" FontSize="16" Foreground="White"/>
+            <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" Height="20" Margin="30,0,0,447" TextWrapping="Wrap" Text="confirm password" VerticalAlignment="Bottom" Width="135" FontSize="16" Foreground="White"/>
 
-            <Button Content="Register " HorizontalAlignment="Left" Margin="239,429,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+            <Button Content="Register " HorizontalAlignment="Left" Margin="224,556,0,0" VerticalAlignment="Top" Click="Button_Click_1" RenderTransformOrigin="0.351,0.438" Foreground="White"/>
         </Grid>
     </Grid>
 </Page>
