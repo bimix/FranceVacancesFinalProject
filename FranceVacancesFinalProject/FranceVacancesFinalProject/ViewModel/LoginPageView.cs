@@ -34,9 +34,9 @@ namespace FranceVacancesFinalProject.ViewModel
 
 
             CustomerInfos = new ObservableCollection<CustomerInfo>();
-            CustomerInfos.Add(new CustomerInfo("David", "45", "davi@gmail.com", "34554667", "23456"));
-            CustomerInfos.Add(new CustomerInfo("Jerry", "78", "jerry@yahoomail.com", "6778998", "345678"));
-            CustomerInfos.Add(new CustomerInfo("Jame", "320", "james@hotmail.com", "4567788", "567899"));
+            CustomerInfos.Add(new CustomerInfo("David", "45", "davi@gmail.com", "34554667", "123"));
+            CustomerInfos.Add(new CustomerInfo("Jerry", "78", "jerry@yahoomail.com", "6778998", "123"));
+            CustomerInfos.Add(new CustomerInfo("Jame", "320", "james@hotmail.com", "4567788", "123"));
         }
         public void Add()
         {
