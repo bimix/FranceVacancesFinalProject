@@ -1,0 +1,86 @@
+﻿<Page
+    x:Class="FranceVacancesFinalProject.ViewModel.ConfirmationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FranceVacancesFinalProject.ViewModel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="textBlock0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="113,36,0,0" Width="132">
+    		<Run Text="T"/>
+    		<Run Text="hat's all"/>
+    		<Run Text=",t"/>
+    		<Run Text="hank"/>
+    		<Run Text=" you!"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='2' x:Name="textBlock1" HorizontalAlignment="Left" Margin="82,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="190" FontSize="6.667">
+        	<Run Text="         "/>
+        	<Run Text="        "/>
+        	<Run Text="You will receive an email"/>
+        	<Run Text=" "/>
+        	<Run Text="confirmation"/>
+        	<Run Text=" shortly"/>
+        	<Run Text="."/>
+        	<Run Text=" "/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="We really appreciate your time and"/>
+        	<Run Text=" doing business with"/>
+        	<Run Text=" you"/>
+        	<Run Text="."/>
+        	<LineBreak/>
+        	<Run Text=""/>
+        	<LineBreak/>
+        	<Run Text=""/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+        <StackPanel HorizontalAlignment="Left" Height="2" VerticalAlignment="Top" Width="271" Margin="50,102,0,0" Background="{ThemeResource AppBarBorderThemeBrush}" BorderThickness="0" BorderBrush="{ThemeResource AppBarToggleButtonCheckedDisabledBackgroundThemeBrush}"/>
+        <StackPanel HorizontalAlignment="Left" Height="2" VerticalAlignment="Top" Width="271" Margin="50,290,0,0" Background="{ThemeResource AppBarBorderThemeBrush}" BorderThickness="0" BorderBrush="{ThemeResource AppBarToggleButtonCheckedDisabledBackgroundThemeBrush}"/>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock" HorizontalAlignment="Left" Margin="50,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" Height="109" FontSize="24" FontFamily="TI-Nspire Sans">
+        	<Run FontSize="6.667" Text="Cancellation Policy:  The reservation can be cancelled without charges untill the day before arrival between 10 pm - 17 am."/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontSize="6.667" Text="For "/>
+        	<Run FontSize="6.667" Text="m"/>
+        	<Run FontSize="6.667" Text="ore information, please visit our website www.francevacances.com"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontSize="6.667" Text="Thank you for your booking at francevacances  we are looking forward to your stay with us."/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontSize="6.667" Text="should you need any further assistance, please contact us sales@vacances.com or via telephone at +491793402581"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontSize="6.667" Text="Kind regards,"/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run FontSize="6.667"/>
+        	<LineBreak/>
+        	<Run FontSize="6.667" Text="The Reservation Department."/>
+        	<LineBreak/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text=" "/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+        <Button x:ConnectionId='4' x:Name="button" Content="&#xD;&#xA;Homepage" HorizontalAlignment="Left" Margin="50,242,0,0" VerticalAlignment="Top" Height="43" FontSize="10.667" Width="271"/>
+        <StackPanel HorizontalAlignment="Left" Height="2" VerticalAlignment="Top" Width="271" Margin="50,235,0,0" Background="{ThemeResource AppBarBorderThemeBrush}" BorderThickness="0" BorderBrush="{ThemeResource AppBarToggleButtonCheckedDisabledBackgroundThemeBrush}"/>
+
+
+    </Grid>
+</Page>
+
