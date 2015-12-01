@@ -28,17 +28,17 @@ namespace FranceVacancesFinalProject.Model
 
 
         // Commented out because this should be in the LoginPageView !
-    //    public RelayCommand AddCustomerInfoCommand { get; set; }
-     //   public RelayCommand RemoveCustomerInfoCommand { get; set; }
-       // public RelayCommand GetCustomerInfoCommand { get; set; }
-       // public RelayCommand SaveCustomerInfoCommand { get; set; }
+        // public RelayCommand AddCustomerInfoCommand { get; set; }
+        // public RelayCommand RemoveCustomerInfoCommand { get; set; }
+        // public RelayCommand GetCustomerInfoCommand { get; set; }
+        // public RelayCommand SaveCustomerInfoCommand { get; set; }
 
         public CustomerCatalog()
         {
-         //   AddCustomerInfoCommand = new RelayCommand(Add);
-          //  RemoveCustomerInfoCommand = new RelayCommand(RemoveAt);
-           // GetCustomerInfoCommand = new RelayCommand(LoadCustomerInfos);
-           // SaveCustomerInfoCommand = new RelayCommand(SaveCustomerInfos);
+            // AddCustomerInfoCommand = new RelayCommand(Add);
+            // RemoveCustomerInfoCommand = new RelayCommand(RemoveAt);
+            // GetCustomerInfoCommand = new RelayCommand(LoadCustomerInfos);
+            // SaveCustomerInfoCommand = new RelayCommand(SaveCustomerInfos);
 
 
             CustomerInfos = new ObservableCollection<CustomerInfo>();
